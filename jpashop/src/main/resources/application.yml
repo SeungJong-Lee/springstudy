@@ -7,7 +7,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: create # create 생성 후 삭제 <-> none
     properties:
       hibernate:
 #        show_sql: true
